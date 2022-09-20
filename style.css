@@ -1,0 +1,88 @@
+/* First step is import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Nunito+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(171, 199, 174);
+}
+.container {
+    width: 600px;
+    min-height: 200px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    padding: 30px;
+}
+.container header {
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.content .quoteArea {
+    display: flex;
+    justify-content: center;
+    
+}
+.quoteArea i:first-child {
+    margin: 3px 10px 0 0;
+}
+.quoteArea i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.quoteArea .quote {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+ul li {
+    list-style: none;
+}
+
+.buttonsContainer { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.author .nameOfAuthor {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fa-copy{
+    border: 1px solid black;
+    font-size: 1.4em;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    color: azure;
+    background-color: rgb(84, 137, 173);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
